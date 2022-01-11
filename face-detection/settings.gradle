@@ -7,4 +7,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "face-detection"
+include "opencv"
+project(":opencv").projectDir = file("sdk")
 include ':app'
